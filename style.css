@@ -1,0 +1,55 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  border: 5px solid grey;
+  border-radius: 12px;
+  background-color: #fff1db;
+  margin: 0px 0px 20px;
+}
+
+.main {
+  width: 100%;
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 1.6rem;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+input {
+  width: 10rem;
+  display: inline-block;
+}
